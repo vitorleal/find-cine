@@ -1,11 +1,9 @@
 find-cine [![Build Status](https://secure.travis-ci.org/vitorleal/find-cine.png)](http://travis-ci.org/vitorleal/find-cine)
 =======
 
-![logo](https://raw.github.com/vitorleal/find-cine/master/logo.png)
+## Description
 
-Description
-
-jscoverage: [100%](http://vitorleal.github.com/coverage/find-cine.html)
+Module to get cinemas near a location usign google movies page
 
 ## Install
 
@@ -16,8 +14,9 @@ $ npm install find-cine
 ## Usage
 
 ```js
-var find-cine = require('find-cine');
+var findCine = require('find-cine');
 
+result = findCine.near('Calle del Pinar 6 Madrid');
 ```
 
 ## License
