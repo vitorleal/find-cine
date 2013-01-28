@@ -1,0 +1,1 @@
+module.exports = process.env.FIND-CINE_COV ? require('./lib-cov/find-cine') : require('./lib/find-cine');
