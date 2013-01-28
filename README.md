@@ -1,4 +1,4 @@
-find-cine [![Build Status](https://secure.travis-ci.org/vitorleal/find-cine.png)](http://travis-ci.org/vitorleal/find-cine)
+find-cine [![Build Status](https://travis-ci.org/vitorleal/find-cine.png?branch=master)](https://travis-ci.org/vitorleal/find-cine)
 =======
 
 ## Description
