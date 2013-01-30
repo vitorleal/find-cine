@@ -16,7 +16,7 @@ $ npm install find-cine
 ```js
 var findCine = require('find-cine');
 
-result = findCine.near('Calle del Pinar 6 Madrid');
+var result = findCine.near('Calle del Pinar 6 Madrid');
 ```
 
 ## License
