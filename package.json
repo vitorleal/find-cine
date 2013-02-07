@@ -1,6 +1,6 @@
 {
   "name": "find-cine",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Find cinemas near a street (good to use with geoLocation)",
   "main": "index.js",
   "scripts": {
