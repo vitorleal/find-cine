@@ -1,6 +1,6 @@
 var fs       = require('fs');
 var should   = require('should');
-var findCine = require('../lib/index');
+var findCine = require('../lib/find-cine');
 
 describe("Showld bring the near cinemas", function() {
     it("near cinemas", function(done) {
