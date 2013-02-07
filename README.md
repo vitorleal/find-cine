@@ -3,7 +3,8 @@ find-cine [![Build Status](https://travis-ci.org/vitorleal/find-cine.png?branch=
 
 ## Description
 
-Module to get cinemas near a location usign google movies page
+A NPM module to find movie theaters close to an address (to use with geoLocation).
+I create this module to use in a hack project for FirefoxOS at the FirefoxAppDays in Madrid.
 
 ## Install
 
