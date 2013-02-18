@@ -2,19 +2,19 @@ var fs       = require('fs');
 var should   = require('should');
 var findCine = require('../lib/find-cine');
 
-describe("Showld bring the near cinemas", function() {
+describe("Should bring the objects", function() {
     it("near cinemas", function(done) {
-        findCine.near('calle del pinar 6');
-        done();
+        findCine.near('Calle del pinar 6', function(err, results) {
+          results.should.have.property('total');
+          results.should.have.property('theaters');
+          done();
+        });
     });
 
-    it("theather by id", function(done) {
-        findCine.theaterId('calle del pinar 6', 000);
-        done();
-    });
-
-    it("movie by id", function(done) {
-        findCine.movieId('calle del pinar 6', 000);
-        done();
+    it("total should be > 0", function(done) {
+        findCine.near('Calle del pinar 6', function(err, results) {
+          results.total.should.be.above(0);
+          done();
+        });
     });
 });
