@@ -24,4 +24,4 @@ findCine.near('Calle del Pinar 6 Madrid', function (err, results) {
 
 
 ## License
-See [LICENSE.txt](https://raw.github.com/vitorleal/find-cine/master/LICENSE.txt)
+See [LICENSE.txt](https://github.com/vitorleal/find-cine/blob/master/LICENSE.txt)
