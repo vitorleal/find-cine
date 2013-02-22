@@ -21,7 +21,7 @@ describe("NEAR function", function() {
 
 describe("THEATER id function", function() {
   it("must have total and theaters", function(done) {
-    findCine.theaterId('Calle del pinar 6', 'f5620c58eb9a048e', function(err, results) {
+    findCine.theaterId('Calle del pinar 6', '14d0d63a370c4944', function(err, results) {
       results.should.have.property('total');
       results.should.have.property('theaters');
       done();
@@ -29,7 +29,7 @@ describe("THEATER id function", function() {
   });
 
   it("total should be = 1", function(done) {
-    findCine.theaterId('Calle del pinar 6', 'f5620c58eb9a048e', function(err, results) {
+    findCine.theaterId('Calle del pinar 6', '14d0d63a370c4944', function(err, results) {
       results.total.should.be.equal(1);
       done();
     });
