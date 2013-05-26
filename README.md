@@ -32,8 +32,7 @@ findCine.theaterId('Calle del Pinar 6 Madrid', 'f5620c58eb9a048e', function (err
 ```
 
 ## Author
-| [![twitter/vitorleal](http://gravatar.com/avatar/e133221d7fbc0dee159dca127d2f6f00?s=80)](http://twitter.com/vitorleal
-"Follow @vitorleal on Twitter") |
+| [![twitter/vitorleal](http://gravatar.com/avatar/e133221d7fbc0dee159dca127d2f6f00?s=80)](http://twitter.com/vitorleal "Follow @vitorleal on Twitter") |
 |---|
 | [Vitor Leal](http://vitorleal.com) |
 
