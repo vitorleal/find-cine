@@ -1,6 +1,6 @@
 {
   "name": "find-cine",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Find cinemas near a street (good to use with geoLocation)",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,9 @@
   "devDependencies": {
     "should": "*",
     "jscover": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.5.4"
   },
   "repository": {
     "type": "git",

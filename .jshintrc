@@ -1,0 +1,5 @@
+{
+  "node": true,
+  "globals": true,
+  "indent": 2
+}
