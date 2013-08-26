@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Find-cine by vitorleal</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Find-cine</h1>
+        <p>Find near movie theaters using google movies</p>
+
+        <p class="view"><a href="https://github.com/vitorleal/find-cine">View the Project on GitHub <small>vitorleal/find-cine</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/vitorleal/find-cine/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/vitorleal/find-cine/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/vitorleal/find-cine">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="find-cine--" class="anchor" href="#find-cine--"><span class="octicon octicon-link"></span></a>find-cine <a href="https://travis-ci.org/vitorleal/find-cine"><img src="https://travis-ci.org/vitorleal/find-cine.png?branch=master" alt="Build Status"></a> <a href="https://gemnasium.com/vitorleal/find-cine"><img src="https://gemnasium.com/vitorleal/find-cine.png" alt="Dependency Status"></a>
+</h1>
+
+<p><a href="https://nodei.co/npm/find-cine/"><img src="https://nodei.co/npm/find-cine.png?downloads=true" alt="NPM"></a></p>
+
+<h2>
+<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>Description</h2>
+
+<p>A NPM module to find movie theaters close to an address (to use with geoLocation).
+I create this module to use in a hack project for FirefoxOS at the FirefoxAppDays in Madrid.</p>
+
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<div class="highlight"><pre><span class="nv">$ </span>npm install find-cine
+</pre></div>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>In the <code>findCine.near</code> function you need to pass the address</p>
+
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">findCine</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'find-cine'</span><span class="p">);</span>
+
+<span class="nx">findCine</span><span class="p">.</span><span class="nx">near</span><span class="p">(</span><span class="s1">'Calle del Pinar 6 Madrid'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">results</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">results</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+<p>In the <code>findCine.theaterId</code> function you pass the address and the id of the theater</p>
+
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">findCine</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'find-cine'</span><span class="p">);</span>
+
+<span class="nx">findCine</span><span class="p">.</span><span class="nx">theaterId</span><span class="p">(</span><span class="s1">'Calle del Pinar 6 Madrid'</span><span class="p">,</span> <span class="s1">'f5620c58eb9a048e'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">results</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">results</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+<h2>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<table>
+<thead><tr>
+<th><a href="http://twitter.com/vitorleal" title="Follow @vitorleal on Twitter"><img src="http://gravatar.com/avatar/e133221d7fbc0dee159dca127d2f6f00?s=80" alt="twitter/vitorleal"></a></th>
+</tr></thead>
+<tbody><tr>
+<td><a href="http://vitorleal.com">Vitor Leal</a></td>
+</tr></tbody>
+</table><h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>See <a href="https://github.com/vitorleal/find-cine/blob/master/LICENSE.txt">LICENSE.txt</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/vitorleal">vitorleal</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
