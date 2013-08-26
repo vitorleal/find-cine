@@ -2,29 +2,31 @@ var fs       = require('fs'),
     should   = require('should'),
     findCine = require('../lib/find-cine');
 
-describe("NEAR function", function() {
-  it("must have the total and theaters", function(done) {
-    findCine.near('Calle del pinar 6', function(err, results) {
-      results.should.have.property('total');
-      results.should.have.property('theaters');
-      done();
-    });
+describe('String format', function() {
+  it('should format the urls with 1 argument', function() {
+    var url      = 'http://find-cine.com/{{0}}',
+        formated = url.format('test-1-arg');
+
+    formated.should.eql('http://find-cine.com/test-1-arg');
   });
 
-  it("total should be > 0", function(done) {
-    findCine.near('Calle del pinar 6', function(err, results) {
-      results.total.should.be.above(0);
-      done();
-    });
+  it('should format the urls with 2 or more arguments', function() {
+    var url      = 'http://find-cine.com/{{0}}/{{1}}',
+        formated = url.format('first-arg', 'second-arg');
+
+    formated.should.eql('http://find-cine.com/first-arg/second-arg');
+  });
+
+  it('should format the urls with 2 or more arguments', function() {
+    var url      = 'http://find-cine.com/{{0}}/{{1}}/{{2}}',
+        formated = url.format('first-arg', 'second-arg', 'third-arg');
+
+    formated.should.eql('http://find-cine.com/first-arg/second-arg/third-arg');
   });
 });
 
-describe("THEATER id function", function() {
-  it("must have total and theaters", function(done) {
-    findCine.theaterId('Calle del pinar 6', 'f1c1b938448630c8', function(err, results) {
-      results.should.have.property('total');
-      results.should.have.property('theaters');
-      done();
-    });
+describe('Integration test', function () {
+  it('should retunr object', function (done) {
+    done();
   });
 });

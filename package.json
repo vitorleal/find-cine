@@ -1,25 +1,24 @@
 {
-  "name": "find-cine",
-  "version": "0.2.0",
-  "description": "Find cinemas near a street (good to use with geoLocation)",
-  "main": "index.js",
+  "name"       : "find-cine",
+  "version"    : "0.3.0",
+  "description": "Find movie theaters near you (good to use with geoLocation)",
+  "main"       : "index.js",
   "scripts": {
     "test": "make test"
   },
   "dependencies": {
-    "jsdom": "*",
-    "request": "*"
+    "cheerio": "*"
   },
   "devDependencies": {
-    "should": "*",
+    "should" : "*",
     "jscover": "*",
-    "mocha": "*",
-    "grunt": "~0.4.1",
+    "mocha"  : "*",
+    "grunt"  : "~0.4.1",
     "grunt-contrib-jshint": "~0.5.4"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vitorleal/find-cine.git"
+    "url" : "git://github.com/vitorleal/find-cine.git"
   },
   "keywords": [
     "find-cine",
@@ -30,6 +29,6 @@
     "peliculas",
     "cine"
   ],
-  "author": "Vitor Leal <vitorleal1@gmail.com>",
+  "author" : "Vitor Leal <vitorleal1@gmail.com>",
   "license": "MIT"
 }
