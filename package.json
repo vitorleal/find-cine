@@ -1,6 +1,6 @@
 {
   "name"       : "find-cine",
-  "version"    : "0.3.4",
+  "version"    : "0.3.5",
   "description": "Find movie theaters near you (good to use with geoLocation)",
   "main"       : "index.js",
   "scripts": {

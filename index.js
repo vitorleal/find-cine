@@ -1,1 +1,1 @@
-module.exports = require('./lib/find-cine');
+//module.exports = require('./lib/find-cine');findCine = require('./lib/find-cine');findCine.near('Rua Redentor 70', function (err, res) {    console.log(res.theaters[0].movies);});
