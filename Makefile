@@ -1,5 +1,5 @@
 test:
 	./node_modules/.bin/mocha \
-	--reporter nyan
+	--reporter spec
 
 .PHONY: test
