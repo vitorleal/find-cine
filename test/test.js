@@ -1,5 +1,4 @@
-var fs       = require('fs'),
-    should   = require('should'),
+var should   = require('should'),
     findCine = require('../lib/find-cine');
 
 //Format String
