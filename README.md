@@ -1,4 +1,4 @@
-find-cine [![Build Status](https://travis-ci.org/vitorleal/find-cine.png?branch=master)](https://travis-ci.org/vitorleal/find-cine) [![Dependency Status](https://gemnasium.com/vitorleal/find-cine.png)](https://gemnasium.com/vitorleal/find-cine)
+find-cine [![Build Status](https://travis-ci.org/vitorleal/find-cine.png?branch=master)](https://travis-ci.org/vitorleal/find-cine) [![Dependency Status](https://gemnasium.com/vitorleal/find-cine.png)](https://gemnasium.com/vitorleal/find-cine) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 =======
 [![NPM](https://nodei.co/npm/find-cine.png?downloads=true)](https://nodei.co/npm/find-cine/)
 
