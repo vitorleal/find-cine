@@ -29,56 +29,58 @@
       </header>
       <section>
         <h1>
-<a name="find-cine--" class="anchor" href="#find-cine--"><span class="octicon octicon-link"></span></a>find-cine <a href="https://travis-ci.org/vitorleal/find-cine"><img src="https://travis-ci.org/vitorleal/find-cine.png?branch=master" alt="Build Status"></a> <a href="https://gemnasium.com/vitorleal/find-cine"><img src="https://gemnasium.com/vitorleal/find-cine.png" alt="Dependency Status"></a>
-</h1>
+<a id="find-cine" class="anchor" href="#find-cine" aria-hidden="true"><span class="octicon octicon-link"></span></a>find-cine</h1>
 
 <p><a href="https://nodei.co/npm/find-cine/"><img src="https://nodei.co/npm/find-cine.png?downloads=true" alt="NPM"></a></p>
 
 <h2>
-<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>Description</h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Description</h2>
 
 <p>A NPM module to find movie theaters close to an address (to use with geoLocation).
 I create this module to use in a hack project for FirefoxOS at the FirefoxAppDays in Madrid.</p>
 
 <h2>
-<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
 
-<div class="highlight"><pre><span class="nv">$ </span>npm install find-cine
-</pre></div>
+<div class="highlight highlight-bash"><pre>$ npm install find-cine</pre></div>
 
 <h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <p>In the <code>findCine.near</code> function you need to pass the address</p>
 
-<div class="highlight"><pre><span class="kd">var</span> <span class="nx">findCine</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'find-cine'</span><span class="p">);</span>
+<div class="highlight highlight-js"><pre><span class="pl-s">var</span> findCine <span class="pl-k">=</span> <span class="pl-s3">require</span>(<span class="pl-s1"><span class="pl-pds">'</span>find-cine<span class="pl-pds">'</span></span>);
 
-<span class="nx">findCine</span><span class="p">.</span><span class="nx">near</span><span class="p">(</span><span class="s1">'Calle del Pinar 6 Madrid'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">results</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">results</span><span class="p">);</span>
-<span class="p">});</span>
-</pre></div>
+findCine.near(<span class="pl-s1"><span class="pl-pds">'</span>Calle del Pinar 6 Madrid<span class="pl-pds">'</span></span>, <span class="pl-st">function</span> (<span class="pl-vpf">err</span>, <span class="pl-vpf">results</span>) {
+  <span class="pl-en">console</span><span class="pl-s3">.log</span>(results);
+});</pre></div>
 
 <p>In the <code>findCine.theaterId</code> function you pass the address and the id of the theater</p>
 
-<div class="highlight"><pre><span class="kd">var</span> <span class="nx">findCine</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'find-cine'</span><span class="p">);</span>
+<div class="highlight highlight-js"><pre><span class="pl-s">var</span> findCine <span class="pl-k">=</span> <span class="pl-s3">require</span>(<span class="pl-s1"><span class="pl-pds">'</span>find-cine<span class="pl-pds">'</span></span>);
 
-<span class="nx">findCine</span><span class="p">.</span><span class="nx">theaterId</span><span class="p">(</span><span class="s1">'Calle del Pinar 6 Madrid'</span><span class="p">,</span> <span class="s1">'f5620c58eb9a048e'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">results</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">results</span><span class="p">);</span>
-<span class="p">});</span>
-</pre></div>
+findCine.theaterId(<span class="pl-s1"><span class="pl-pds">'</span>Calle del Pinar 6 Madrid<span class="pl-pds">'</span></span>, <span class="pl-s1"><span class="pl-pds">'</span>f5620c58eb9a048e<span class="pl-pds">'</span></span>, <span class="pl-st">function</span> (<span class="pl-vpf">err</span>, <span class="pl-vpf">results</span>) {
+  <span class="pl-en">console</span><span class="pl-s3">.log</span>(results);
+});</pre></div>
 
 <h2>
-<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author</h2>
 
 <table>
-<thead><tr>
+<thead>
+<tr>
 <th><a href="http://twitter.com/vitorleal" title="Follow @vitorleal on Twitter"><img src="http://gravatar.com/avatar/e133221d7fbc0dee159dca127d2f6f00?s=80" alt="twitter/vitorleal"></a></th>
-</tr></thead>
-<tbody><tr>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td><a href="http://vitorleal.com">Vitor Leal</a></td>
-</tr></tbody>
-</table><h2>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
 
 <p>See <a href="https://github.com/vitorleal/find-cine/blob/master/LICENSE.txt">LICENSE.txt</a></p>
       </section>
