@@ -1,10 +1,10 @@
-find-cine [![Build Status](https://travis-ci.org/vitorleal/find-cine.png?branch=master)](https://travis-ci.org/vitorleal/find-cine) [![Dependency Status](https://gemnasium.com/vitorleal/find-cine.png)](https://gemnasium.com/vitorleal/find-cine) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+Find Cine [![Build Status](https://travis-ci.org/vitorleal/find-cine.png?branch=master)](https://travis-ci.org/vitorleal/find-cine) [![Dependency Status](https://gemnasium.com/vitorleal/find-cine.png)](https://gemnasium.com/vitorleal/find-cine) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 =======
 [![NPM](https://nodei.co/npm/find-cine.png?downloads=true)](https://nodei.co/npm/find-cine/)
 
 ## Description
 
-A NPM module to find movie theaters close to an address (to use with geoLocation).
+A NPM module to find movie theaters close to an address (to use with geo-location).
 I create this module to use in a hack project for FirefoxOS at the FirefoxAppDays in Madrid.
 
 ## Install
